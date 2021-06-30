@@ -1,0 +1,14 @@
+.footer .contact{
+    height: 80px;
+    background: $dark-brown;
+}
+.box12{
+    
+    @include m-auto;
+    @include d-flex;
+    @include jcsb;
+    align-items: center;
+}
+.box13{
+    @include d-flex;
+}

@@ -1,0 +1,39 @@
+.header{
+    @include d-flex;
+    @include jcsb;
+    @include m-auto;
+}
+
+.box{
+    width: 460px;
+    @include d-flex;
+    @include jcsb;
+}
+.menu{
+    @include d-flex;
+    align-items: center;
+}
+.menu p{
+    font-size: $fs-20;
+    line-height: 20px;
+    padding-left: 3px;
+    color: $gray;
+}    
+.banner{
+    height: 56px;
+    background: $dark-brown;
+}
+.option{
+    @include m-auto;
+}
+.option ul{
+    height: 56px;
+    @include d-flex;
+    
+}
+.option li{
+    height: 56px;
+    line-height: $h-56;
+    padding-right: 28px;
+    color: $white;
+}
